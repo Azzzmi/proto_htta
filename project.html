@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="project.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap" rel="stylesheet">
+    <script src="jquery-main/jquery.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <div class="firstName">
+                hatt
+            </div>
+            <div class="lastName">
+                .gg
+            </div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html" style="--clr:#1e9bff"><span>Home</span></a></li>
+                <li><a href="project.html" style="--clr:#1e9bff"><span>Projects</span></a></li>
+                <li><a href="about.html" style="--clr:#1e9bff"><span>About</span></a></li>
+                <li><a href="contact.html" style="--clr:#1e9bff"><span>Contact</span></a></li>
+            </ul>
+        </nav>
+        <div class="menu-toggle">
+            <span class="material-symbols-outlined">
+                menu
+            </span>
+        </div>
+    </header>
+    <script>
+        $(document).ready(function () {
+            $(".menu-toggle").click(function() {
+                $('nav').toggleClass('active');
+            })
+        })
+    </script>
+    <section class="bgWrapper">
+        <div class="bStars">
+            <div id="stars"></div>
+            <div id="stars2"></div>
+            <div id="stars3"></div>
+        </div>
+    </section>
+</body>
+</html>
